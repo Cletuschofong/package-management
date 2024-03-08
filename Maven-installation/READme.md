@@ -31,7 +31,7 @@ git --version
 ``` sh
 #Step1) Download the Maven Software
 sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip
-sudo unzip apache-maven-maven-3.9.6/-bin.zip
+sudo yum install unzip -y && sudo unzip apache-maven-3.9.6-bin.zip
 sudo rm -rf apache-maven-maven-3.9.6/-bin.zip
 sudo mv apache-maven-maven-3.9.6/ maven
 ```
